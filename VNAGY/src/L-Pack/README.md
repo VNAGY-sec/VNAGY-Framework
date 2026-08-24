@@ -1,7 +1,7 @@
 # L-Pack
 
 Purpose:
-Deterministic acquisition of local log and monitoring events.
+Deterministic acquisition of local log and monitoring events. 
 
 Inputs:
 - Structural log events
