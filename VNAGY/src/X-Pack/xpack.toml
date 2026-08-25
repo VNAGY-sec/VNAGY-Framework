@@ -1,0 +1,15 @@
+[meta]
+name = "X-Pack"
+type = "symbolic"
+mode = "offline-first"
+
+[structure]
+id = "symbolic"
+timestamp = "local"
+external = "struct"
+
+[bounds]
+allowed_external = ["local", "sandbox", "isolated"]
+
+[mapping]
+external_normalization = "local-only"
