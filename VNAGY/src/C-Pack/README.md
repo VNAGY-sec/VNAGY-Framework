@@ -24,25 +24,26 @@ Structure:
 - src/           # Deterministic symbolic logic
 - tests/         # Deterministic test suite
 
-VNAGY CC BY‑NC‑ND 4.0 — Code Edition (2026)
 
+## License
+
+### VNAGY CC BY‑NC‑ND 4.0 — Code Edition (2026)  
 © Viktorija Nađ
-Allowed
 
-* reading
-* learning
-* academic reference with attribution
+#### Allowed
+- reading  
+- learning  
+- academic reference with attribution
 
-Prohibited
+#### Prohibited
+- commercial use  
+- modification  
+- redistribution  
+- derivative works  
+- external integration  
+- removal of author markings  
+- rebranding  
+- operational reconstruction
 
-* commercial use
-* modification
-* redistribution
-* derivative works
-* external integration
-* removal of author markings
-* rebranding
-* operational reconstruction
-
-Full license text:
+Full license text:  
 https://github.com/VNAGY-sec-ViktorijaN/VNAGY-Framework/tree/main/VNAGY/LICENSE
