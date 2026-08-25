@@ -1,0 +1,15 @@
+[meta]
+name = "S-Pack"
+type = "symbolic"
+mode = "offline-first"
+
+[structure]
+id = "symbolic"
+timestamp = "local"
+state = "struct"
+
+[bounds]
+allowed_states = ["init", "steady", "transition"]
+
+[mapping]
+state_normalization = "local-only"
