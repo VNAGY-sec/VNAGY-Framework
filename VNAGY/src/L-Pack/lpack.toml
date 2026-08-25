@@ -1,0 +1,15 @@
+[meta]
+name = "L-Pack"
+type = "symbolic"
+mode = "offline-first"
+
+[structure]
+id = "symbolic"
+timestamp = "local"
+signal = "struct"
+
+[bounds]
+allowed_signals = ["struct", "metric", "state"]
+
+[mapping]
+raw_to_symbolic = "local-only"
