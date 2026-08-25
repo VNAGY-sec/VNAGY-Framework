@@ -1,9 +1,0 @@
-enabled = true
-
-# CPU burst detection
-burst_threshold = 92
-baseline_window_seconds = 180
-min_sample_window_ms = 100
-
-# Behavior flags
-detect_short_spikes = true
