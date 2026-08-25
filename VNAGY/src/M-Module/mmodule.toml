@@ -1,0 +1,15 @@
+[meta]
+name = "C-Pack"
+type = "symbolic"
+mode = "offline-first"
+
+[structure]
+id = "symbolic"
+timestamp = "local"
+context = "struct"
+
+[bounds]
+allowed_context = ["local", "system", "process"]
+
+[mapping]
+context_normalization = "local-only"
