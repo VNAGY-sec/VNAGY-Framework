@@ -1,0 +1,15 @@
+[meta]
+name = "P-Pack"
+type = "symbolic"
+mode = "offline-first"
+
+[structure]
+id = "symbolic"
+timestamp = "local"
+pattern = "struct"
+
+[bounds]
+allowed_patterns = ["sequence", "delta", "symbolic"]
+
+[mapping]
+pattern_normalization = "local-only"
