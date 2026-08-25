@@ -1,6 +1,0 @@
-enabled = true
-
-# Silent thread expansion
-max_threads = 350
-detect_silent_expansion = true
-expansion_threshold = 15
