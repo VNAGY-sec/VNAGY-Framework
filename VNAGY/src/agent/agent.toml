@@ -1,0 +1,5 @@
+enabled = true
+interval_ms = 1000
+mode = "offline-first"
+send_to_lpack = true
+log_level = "warn"

@@ -1,0 +1,8 @@
+enabled = true
+
+# Supply-chain integrity
+hash_check_interval_seconds = 20
+modules = ["l-pack", "m-module", "x-pack"]
+
+detect_drift = true
+strict_mode = true

@@ -1,0 +1,8 @@
+enabled = true
+
+# Network locality
+allowed_subnets = ["192.168.1.0/24"]
+
+# Subnet drift detection
+detect_subnet_drift = true
+track_locality = true
