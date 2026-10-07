@@ -1,9 +1,5 @@
+[cpu_behavior]
 enabled = true
-
-# CPU burst detection
-burst_threshold = 92
-baseline_window_seconds = 180
-min_sample_window_ms = 100
-
-# Behavior flags
-detect_short_spikes = true
+load_stability_threshold = 0.85
+detect_unexpected_spikes = true
+monitor_scheduling_anomalies = true

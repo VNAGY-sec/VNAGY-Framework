@@ -1,0 +1,5 @@
+[threads]
+enabled = true
+monitor_execution_flow = true
+detect_parent_child_anomalies = true
+track_stealth_threads = true

@@ -1,0 +1,5 @@
+[memory_injections]
+enabled = true
+detect_allocation_anomalies = true
+monitor_memory_only = true
+prevent_stealth_mapping = true

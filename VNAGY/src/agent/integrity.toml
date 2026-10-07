@@ -1,8 +1,5 @@
+[integrity]
 enabled = true
-
-# Supply-chain integrity
-hash_check_interval_seconds = 20
-modules = ["l-pack", "m-module", "x-pack"]
-
-detect_drift = true
-strict_mode = true
+check_configuration_drift = true
+audit_file_operations = true
+verify_system_state = true

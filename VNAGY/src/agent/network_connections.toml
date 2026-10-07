@@ -1,0 +1,5 @@
+[network_connections]
+enabled = true
+deep_inspection = true
+track_outbound_sockets = true
+subnet_anomaly_detection = true

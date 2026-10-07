@@ -1,0 +1,5 @@
+[process_cycles]
+enabled = true
+monitor_scheduling = true
+track_cycles = true
+deep_introspection = true

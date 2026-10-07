@@ -1,0 +1,5 @@
+[kernel_control]
+enabled = true
+introspection_level = "deep"
+monitor_modules = true
+core_state_shift_detection = true

@@ -1,0 +1,5 @@
+[privilege_escalation]
+enabled = true
+audit_tokens = true
+track_role_drift = true
+detect_unauthorized_transitions = true

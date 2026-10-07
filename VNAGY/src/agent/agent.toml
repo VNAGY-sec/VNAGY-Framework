@@ -1,5 +1,6 @@
-enabled = true
-interval_ms = 1000
+[agent]
+name = "vnagy-security-agent"
+version = "v1.2"
 mode = "offline-first"
-send_to_lpack = true
-log_level = "warn"
+deterministic = true
+poll_interval_ms = 1000

@@ -1,0 +1,5 @@
+[namespaces]
+enabled = true
+monitor_isolation = true
+track_containers = true
+detect_escape_attempts = true

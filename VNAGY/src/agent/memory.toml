@@ -1,9 +1,5 @@
+[memory_behavior]
 enabled = true
-
-# Memory-only process detection
-detect_memory_only = true
-min_memory_kb = 1024
-max_memory_kb = 2097152
-
-# Allocation tracking
-track_allocations = true
+detect_memory_only_processes = true
+monitor_allocation_anomalies = true
+track_injection_patterns = true
