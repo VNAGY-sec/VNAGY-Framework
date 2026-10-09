@@ -19,9 +19,9 @@ The test suite covers four core verification domains:
 
 ## Licensing & Intellectual Property
 
-All test scenarios, scripts, and formal models in this directory are the exclusive intellectual property of the author and are licensed under [cite: 45, 47]:
+All test scenarios, scripts, and formal models in this directory are the exclusive intellectual property of the author and are licensed under:
 
-- **Author:** Viktorija Nađ[cite: 25, 45]
+- **Author:** Viktorija Nađ
 - **License:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International)
 
 *Commercial use and the creation of derivative works are strictly prohibited without explicit written consent from the author.*
