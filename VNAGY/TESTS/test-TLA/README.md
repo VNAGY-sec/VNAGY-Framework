@@ -43,3 +43,13 @@ All formal specifications, empirical test suites, and software artifacts in this
 - **License:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International)
 
 *Commercial use and the creation of derivative works or modifications are strictly prohibited without explicit prior written consent from the author.*
+
+## Licensing & Intellectual Property Scope Notice
+
+To preserve verification integrity and prevent unauthorized modifications of formal test logic, components of the **VNAGY Framework** operate under distinct licensing models:
+
+- **Research Paper & Documentation (PDF / Zenodo):** Licensed under **[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)** (Attribution-NonCommercial). Permits academic study, citations, and non-commercial distribution in its original form.
+- **Test Suite, TLA+ Specifications, & Scripts (GitHub Repository):** Licensed under **[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)** (Attribution-NonCommercial-NoDerivatives). 
+
+### Enforcement Boundary
+While research concepts may be studied, **the formal test suite, execution scripts (`vnagy_*.sh`), and TLA+ models must remain intact and unmodified**. Creating derivative test suites, modifying state invariants, or repackaging verification logic is strictly prohibited without explicit written permission from the author (**Viktorija Naď**).
