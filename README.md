@@ -173,6 +173,16 @@ This README follows VNAGY README Rules:
 - MUST contain: Purpose, Contents, Dependencies, Constraints  
 - MUST NOT contain: narrative text, implementation details, personal notes
 
+## Licensing & Intellectual Property Scope Notice
+
+To preserve verification integrity and prevent unauthorized modifications of formal test logic, components of the **VNAGY Framework** operate under distinct licensing models:
+
+- **Research Paper & Documentation (PDF / Zenodo):** Licensed under **[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)** (Attribution-NonCommercial). Permits academic study, citations, and non-commercial distribution in its original form.
+- **Test Suite, TLA+ Specifications, & Scripts (GitHub Repository):** Licensed under **[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)** (Attribution-NonCommercial-NoDerivatives). 
+
+### Enforcement Boundary
+While research concepts may be studied, **the formal test suite, execution scripts (`vnagy_*.sh`), and TLA+ models must remain intact and unmodified**. Creating derivative test suites, modifying state invariants, or repackaging verification logic is strictly prohibited without explicit written permission from the author (**Viktorija Naď**).
+
   
 
 
