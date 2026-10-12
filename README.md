@@ -185,6 +185,10 @@ While research concepts may be studied, **the formal test suite, execution scrip
 
   
 
+Background in Physics & Applied Science (J. J. Strossmayer University of Osijek) applied to Deterministic, Offline-First Security Architecture.
+
+ **Academic & Physics Background:** Quantum mechanics & low-dimensional nanomaterials research (CroRIS).
+**Cybersecurity R&D:** Creator and Chief Architect of the **VNAGY Security Framework** (`VNAGY-sec`).
 
 
 
