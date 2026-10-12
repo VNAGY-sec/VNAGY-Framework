@@ -175,11 +175,16 @@ This README follows VNAGY README Rules:
 
 ## Licensing & Intellectual Property Scope Notice
 
-To preserve verification integrity and prevent unauthorized modifications of formal test logic, components of the **VNAGY Framework** operate under distinct licensing models:
+To preserve verification integrity and prevent unauthorized modifications of formal test logic, components of the VNAGY Framework operate under distinct licensing models:
 
-- **Research Paper & Documentation (PDF / Zenodo):** Licensed under **[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)** (Attribution-NonCommercial). Permits academic study, citations, and non-commercial distribution in its original form.
-- **Test Suite, TLA+ Specifications, & Scripts (GitHub Repository):** Licensed under **[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)** (Attribution-NonCommercial-NoDerivatives). 
+* **Research Paper & Documentation (PDF / Zenodo):**
+  Licensed under **CC BY-NC-ND 4.0** (Attribution-NonCommercial-NoDerivatives). Strictly prohibits commercial use and unauthorized modifications or derivative works, permitting academic study, citations, and non-commercial distribution only in its original form.
+* **Canonical Structure & Architecture Specifications (GitHub Repository / Docs):**
+  Licensed under **CC BY-NC-ND 4.0** (Attribution-NonCommercial-NoDerivatives). Protects the precise architectural layout, module definitions, and system design from unauthorized derivative works and alterations.
 
+* **Test Suites, Simulation Scripts, TLA+ Specifications, & All Supporting Tests (GitHub Repository):**
+  Licensed under **CC BY-NC-ND 4.0** (Attribution-NonCommercial-NoDerivatives). Ensures logical consistency, prevents tampering with verification logic, and comprehensively covers all validation components, testing modules, and auxiliary scripts against unauthorized modifications or derivative works.
+  
 ### Enforcement Boundary
 While research concepts may be studied, **the formal test suite, execution scripts (`vnagy_*.sh`), and TLA+ models must remain intact and unmodified**. Creating derivative test suites, modifying state invariants, or repackaging verification logic is strictly prohibited without explicit written permission from the author (**Viktorija Naď**).
 
