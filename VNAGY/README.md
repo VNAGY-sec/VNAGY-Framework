@@ -184,6 +184,9 @@ To preserve verification integrity and prevent unauthorized modifications of for
 
 * **Test Suites, Simulation Scripts, TLA+ Specifications, & All Supporting Tests (GitHub Repository):**
   Licensed under **CC BY-NC-ND 4.0** (Attribution-NonCommercial-NoDerivatives). Ensures logical consistency, prevents tampering with verification logic, and comprehensively covers all validation components, testing modules, and auxiliary scripts against unauthorized modifications or derivative works.
+
+* **M-Module (Mathematical Model & Scoring Logic):** Licensed under **CC BY-NC-ND 4.0** (Attribution-NonCommercial-NoDerivatives). Specifically protects the core analytical algorithms, behavior scoring logic, and intent mapping structures from unauthorized extraction, isolated implementation, or derivative tampering.
+  
   
 ### Enforcement Boundary
 While research concepts may be studied, **the formal test suite, execution scripts (`vnagy_*.sh`), and TLA+ models must remain intact and unmodified**. Creating derivative test suites, modifying state invariants, or repackaging verification logic is strictly prohibited without explicit written permission from the author (**Viktorija Naď**).
