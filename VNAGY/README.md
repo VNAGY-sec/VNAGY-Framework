@@ -189,7 +189,7 @@ To preserve verification integrity and prevent unauthorized modifications of for
   
   
 ### Enforcement Boundary
-While research concepts may be studied, **the formal test suite, execution scripts (`vnagy_*.sh`), and TLA+ models must remain intact and unmodified**. Creating derivative test suites, modifying state invariants, or repackaging verification logic is strictly prohibited without explicit written permission from the author (**Viktorija Naď**).
+While research concepts may be studied, **the formal test suite, execution scripts (`vnagy_*.sh`), and TLA+ models must remain intact and unmodified**. Creating derivative test suites, modifying state invariants, or repackaging verification logic is strictly prohibited without explicit written permission from the author (**Viktorija Nađ**).
 
   
 
