@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or framework, please cite it as below."
+authors:
+  - family-names: "Nađ"
+    given-names: "Viktorija"
+title: "VNAGY Offline-First Security Framework"
+version: "1.0.0"
+doi: "10.5281/zenodo.23258092"
+date-released: 2026-03-15
+url: "https://zenodo.org/communities/vnagy-framework/records?q=&l=list&p=1&s=10&sort=newest"
