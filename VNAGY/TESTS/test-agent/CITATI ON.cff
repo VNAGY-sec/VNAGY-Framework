@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+authors:
+  - family-names: "Nađ"
+    given-names: "Viktorija"
+title: "VNAGY"
+version: "1.0.0"
+date-released: 2026-11-03
+url: "https://github.com/VNAGY-sec/VNAGY-Framework/new/main/VNAGY/TESTS/test-agent"
+identifiers:
+  - type: doi
+    value: "https://doi.org/10.5281/zenodo.23796135"
+    description: "Zenodo Archive DOI"
+  - type: url
+    value: "https://youtu.be/6yv9-BmW_Dk?is=rsOBJCjfCIIJxJSy"
+    description: "Technical Overview & Video Demonstration (YouTube)"
