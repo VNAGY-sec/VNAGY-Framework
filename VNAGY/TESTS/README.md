@@ -31,4 +31,4 @@ All test scenarios, scripts, and formal models in this directory are the exclusi
 
 
 *Commercial use and the creation of derivative works are strictly prohibited without explicit written consent from the author.*
- -> u ovom formatu napisati za yocto priject i vnagy
+
