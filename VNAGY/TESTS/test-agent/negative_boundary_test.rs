@@ -1,5 +1,6 @@
-use bridges::*;
-use crypto::*;
+use crypto::{generate_secure_key, SecureMasterKey};
+use bridges::signal_dispatch::dispatch_real_os_signal;
+use bridges::TargetPack;
 
 #[test]
 fn test_vnagy_negative_boundary_and_resilience() {
@@ -26,7 +27,8 @@ fn test_vnagy_negative_boundary_and_resilience() {
     // is supplied instead of a valid OS-entropy-derived key.
     println!("  > [TEST] Executing Negative Test 1: Invalid/Zeroed key injection resistance...");
     
-    let invalid_key = [0u8; 32]; 
+    // Wrapped in SecureMasterKey to match the hardened function signature
+    let invalid_key = SecureMasterKey { bytes: [0u8; 32] }; 
     let malicious_attempt = dispatch_real_os_signal(&invalid_key, target);
     
     match malicious_attempt {
