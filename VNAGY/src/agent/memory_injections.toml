@@ -1,5 +1,13 @@
-[memory_injections]
-enabled = true
-detect_allocation_anomalies = true
-monitor_memory_only = true
-prevent_stealth_mapping = true
+[package]
+name = "agent-memory_injections"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "agent-memory_injections"
+path = "src/main.rs"
+
+[dependencies]
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+os_api = { path = "../os_api" }
