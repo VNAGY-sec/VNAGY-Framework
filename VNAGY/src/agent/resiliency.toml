@@ -1,0 +1,13 @@
+[package]
+name = "resiliency"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "resiliency"
+path = "src/main.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+os_api = { path = "../os_api" }
