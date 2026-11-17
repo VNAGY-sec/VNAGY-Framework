@@ -1,5 +1,13 @@
-[cpu_behavior]
-enabled = true
-load_stability_threshold = 0.85
-detect_unexpected_spikes = true
-monitor_scheduling_anomalies = true
+[package]
+name = "crypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chacha20poly1305 = "0.11.0"
+zeroize = { version = "1.6", features = ["derive"] }
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+getrandom = { version = "0.2", features = ["std"] }
+subtle = "2.5"
+os_api = { path = "../os_api" }
