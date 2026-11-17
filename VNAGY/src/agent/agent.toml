@@ -1,6 +1,11 @@
-[agent]
-name = "vnagy-security-agent"
-version = "v1.2"
-mode = "offline-first"
-deterministic = true
-poll_interval_ms = 1000
+[package]
+name = "agent-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+bridges = { path = "../../integration/bridges" }
+crypto = { path = "../crypto" }
+os_api = { path = "../os_api" }
