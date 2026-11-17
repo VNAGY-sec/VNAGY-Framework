@@ -1,5 +1,13 @@
-[namespaces]
-enabled = true
-monitor_isolation = true
-track_containers = true
-detect_escape_attempts = true
+[package]
+name = "agent-namespaces"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "agent-namespaces"
+path = "src/main.rs"
+
+[dependencies]
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+os_api = { path = "../os_api" }
