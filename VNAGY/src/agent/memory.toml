@@ -1,5 +1,13 @@
-[memory_behavior]
-enabled = true
-detect_memory_only_processes = true
-monitor_allocation_anomalies = true
-track_injection_patterns = true
+[package]
+name = "agent-memory"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "agent-memory"
+path = "src/main.rs"
+
+[dependencies]
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+os_api = { path = "../os_api" }
